@@ -11,7 +11,7 @@ const AboutPage = () => {
       {/* About Section */}
       <section className="about-section">
         <h1>About us</h1>
-        <p className="subtitle">Our Aim to helps needy people</p>
+        <p className="subtitle">Our Aim to help needy people</p>
         <p className="description">
           At <span className="highlight">RETO INDIA</span>, our mission is to
           empower underprivileged artisans and vendors by providing them with a
@@ -59,31 +59,51 @@ const AboutPage = () => {
           <img src={SecondImage} alt="Traditional Art" />
           <h3>Preserving Traditional Art and Craft</h3>
           <p>
-            We Strive To Preserve And Promote The Rich Cultural Heritage Of Our
-            Land By Supporting Handmade And Traditional Products Crafted With
-            Skill And Passion.
+            We strive to preserve and promote the rich cultural heritage of our
+            land by supporting handmade and traditional products crafted with
+            skill and passion.
           </p>
-          <button>Read More</button>
+          <a
+            href="https://en.wikipedia.org/wiki/Traditional_arts"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Read More</button>
+          </a>
         </div>
+
         <div className="card">
           <img src={ThirdImage} alt="Community Connection" />
           <h3>Connecting with Communities</h3>
           <p>
-            Our Mission Is To Connect Local Creators With Global Buyers,
-            Bridging The Gap And Creating Opportunities For Sustainable
-            Livelihoods.
+            Our mission is to connect local creators with global buyers,
+            bridging the gap and creating opportunities for sustainable
+            livelihoods.
           </p>
-          <button>Read More</button>
+          <a
+            href="https://en.wikipedia.org/wiki/Community_development"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Read More</button>
+          </a>
         </div>
+
         <div className="card">
           <img src={FourthImage} alt="Sustainability" />
           <h3>Building a Sustainable Future</h3>
           <p>
-            By Encouraging Handmade And Eco-Friendly Products, We Are Committed
-            To Promoting Sustainability And Reducing The Environmental Impact Of
-            Mass Production.
+            By encouraging handmade and eco-friendly products, we are committed
+            to promoting sustainability and reducing the environmental impact of
+            mass production.
           </p>
-          <button>Read More</button>
+          <a
+            href="https://en.wikipedia.org/wiki/Sustainability"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <button>Read More</button>
+          </a>
         </div>
       </section>
     </div>
